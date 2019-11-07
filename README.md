@@ -6,17 +6,17 @@ Slides are available [here](http://www.dbs.ifi.lmu.de/cms/studium_lehre/lehre_ma
 ## Setup
 I recommend using [Anaconda/Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) for installation:
 
-    ```bash
-    $ conda env create -f ./environment.yml
-    $ conda activate tooling_lecture_2019
-    ```
+```bash
+$ conda env create -f ./environment.yml
+$ conda activate tooling_lecture_2019
+```
 
 For some code snippet it is important to add this project to the PYTHONPATH. You can use `conda develop` for this (if you used `conda` in the first place):
 
-    ```bash
-    $ conda install -y conda-build
-    $ conda develop <path>/tooling_lecture
-    ```
+```bash
+$ conda install -y conda-build
+$ conda develop <path>/tooling_lecture
+```
 
 Also, for running tensorflow serving [Docker](https://www.docker.com/) is required. Install instructions can be found [here](https://docs.docker.com/).
 * [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
